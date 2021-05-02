@@ -1,0 +1,68 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.text_title {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.text_title2 {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.1rem;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text_brigth {
+  color: var(--lightBlue);
+}
+
+.my_cart {
+  text-decoration: none !important;
+}
+.btn {
+  margin-left: 76px !important;
+  color: black;
+  background-color: chocolate !important;
+}
+.btn2 {
+  margin-left: 76px !important;
+  color: white !important;
+  background-color: rgb(1, 104, 44) !important;
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8 rem !important;
+  color: #232528;
+  border-radius: 0 !important;
+  border: 0.1rem solid black !important;
+}
+.btn-black:hover {
+  color: white !important;
+  background: #000;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #ffa400;
+}
+.button_detail {
+  background: rgb(102, 102, 214);
+  border: none;
+  border-radius: 7px;
+}
+.button_cart {
+  background: rgb(218, 129, 27);
+  border: none;
+  border-radius: 7px;
+}
